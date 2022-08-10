@@ -5,6 +5,7 @@
 
 body {
   background-color: #FEEDD5;
+  font-family: 'Roboto', sans-serif;
 }
 
 header {
@@ -16,6 +17,14 @@ ul {
   list-style: none;
 }
 
+/*FONTS*/
+
+h1, h2, h3, .price {
+  font-family: 'Roboto Serif', serif;
+  text-transform: uppercase;
+  color: #2D2C2A;
+}
+
 header, 
 section {
   max-width: 300px;
@@ -24,10 +33,20 @@ section {
 
 header h1 {
   margin-bottom: 4px;
+  font-size: 28px;
+  line-height: 33px;
 }
 
 header h1 span {
   color: #995000;
+
+}
+
+header p {
+  font-size: 14px;
+  line-height: 16px;
+  margin-bottom: 24px;
+  color: rgba(0, 0, 0, 0.7);
 }
 
 section {
@@ -39,9 +58,10 @@ section h2 {
   padding: 8px 16px;
   text-align: center;
   margin-bottom: 24px;
+  font-size: 18px;
 }
 
-
+/*LISTAS*/
 
  ul li {
   margin-bottom: 16px;
@@ -55,4 +75,12 @@ li.details {
 
 .details h3 {
   margin-bottom: 8px;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.details p {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 14px;
+  line-height: 21px;
 }
